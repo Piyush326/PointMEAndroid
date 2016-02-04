@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#311B92</color>
+    <color name="colorPrimarylight">#9b6dff</color>
+    <color name="colorSecondryDark">#67009e</color>
+    <color name="colorSecondrytransparnr">#805000ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#666666</color>
+    <color name="white">#ffffff</color>
+    <color name="facebooktran">#3B5998</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="list_bg">#F2F2F2</color>
+    <color name="nagative_color">#AB47BC</color>
+    <color name="selected">#ff0900</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.pointme.pointme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivitySplace"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityRagister"
+            android:label="@string/title_activity_ragister" />
+        <activity
+            android:name=".ActivityLogin"
+            android:label="@string/title_activity_user_login" />
+        <activity
+            android:name=".ActivityHome"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".ActivityUserProfile"
+            android:label="@string/title_activity_user_profile" />
+        <activity android:name=".ActivityFaceBook">
+
+            <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id" />
+        </activity>
+    </application>
+
+</manifest>
